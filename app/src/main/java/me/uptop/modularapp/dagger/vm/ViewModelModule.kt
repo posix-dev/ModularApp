@@ -6,6 +6,8 @@ import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap
 import me.uptop.auth_feature.viewmodel.AuthViewModel
+import me.uptop.core.dagger.vm.ViewModelFactory
+import me.uptop.core.dagger.vm.ViewModelKey
 import me.uptop.modularapp.viewmodel.MainViewModel
 
 @Module
